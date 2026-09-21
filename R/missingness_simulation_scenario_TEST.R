@@ -48,8 +48,8 @@ n_obs             <- 10000   # small for testing!
 n_rep             <- 2      # small for testing!
 Z_correlation     <- 0.1
 Z_subgroups       <- 4
-target_r_sq_X     <- 0.2
-target_r_sq_Y     <- 0.2
+target_r_sq_X     <- 0.3
+target_r_sq_Y     <- 0.3
 causal            <- 0.5
 
 num_total_conf  <- 32

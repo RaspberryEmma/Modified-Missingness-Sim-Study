@@ -103,6 +103,7 @@ run_CCA_simulation <- function(n_scenario = NULL,
                                      vars_to_censor          = vars_to_censor,
                                      var_names               = var_names)
     
+    
     if (missingness_mechanism == "MNAR") {
       missingness_data <- apply_MNAR_missingness(FULL_dataset, vars_to_censor = vars_to_censor)
     } else if (missingness_mechanism == "MCAR") {
