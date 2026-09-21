@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # ****************************************
-# Missingness Simulation Study
+# Modified-Missingness Simulation Study
 #
 # BluePebble Automation Script
 # This bash scripts automates updating to the most recent
@@ -10,19 +10,19 @@
 # Emma Tarmey
 #
 # Started:          06/10/2025
-# Most Recent Edit: 16/12/2025
+# Most Recent Edit: 21/09/2026
 # ****************************************
 
 echo ""
 
 # delete older version
-rm -f -r Missingness-Sim-Study
+rm -f -r Modified-Missingness-Sim-Study
 
 # clone most recent version
-git clone https://github.com/RaspberryEmma/Missingness-Sim-Study
+git clone https://github.com/RaspberryEmma/Modified-Missingness-Sim-Study
 
 # change wd
-cd Missingness-Sim-Study
+cd Modified-Missingness-Sim-Study
 cd bash
 
 # import python

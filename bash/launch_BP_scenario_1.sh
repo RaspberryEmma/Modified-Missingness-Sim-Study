@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # ****************************************
-# Missingness Simulation Study
+# Modified-Missingness Simulation Study
 #
 # BluePebble Launch Bash Script
 # Defines and runs the R simulation procedure on the BluePebble HPC
@@ -9,7 +9,7 @@
 # Emma Tarmey
 #
 # Started:          06/10/2025
-# Most Recent Edit: 10/11/2025
+# Most Recent Edit: 21/09/2026
 # ****************************************
 #
 #SBATCH --partition=compute
@@ -32,7 +32,7 @@ cd R
 # Record info
 echo ""
 echo "***** START *****"
-echo "***** Missingness Simulation Study - Simulation 1 *****"
+echo "***** Modified-Missingness Simulation Study - Simulation 1 *****"
 echo Start Time:        $(date)
 echo Working Directory: $(pwd)
 echo JOB ID:            ${SLURM_JOBID}
@@ -43,7 +43,7 @@ echo ""
 module load languages/R/4.4.1
 
 # Execute code
-Rscript missingness_simulation_scenario_1.R
+Rscript modified_missingness_simulation_scenario_1.R
 
 echo ""
 echo End Time: $(date)
